@@ -1,0 +1,22 @@
+[
+  {
+    "category": "dapp",
+    "package": "dod",
+    "bin_name": "dod",
+    "config": "./configs/dod.json",
+    "post_install_sequence": 100,
+    "no_deploy": false,
+    "single_mod": true,
+    "actor_entry": true
+  },
+  {
+    "category": "dapp",
+    "package": "dod_miner",
+    "bin_name": "dod_miner",
+    "config": "./configs/dod_miner.json",
+    "post_install_sequence": 100,
+    "no_deploy": false,
+    "single_mod": true,
+    "actor_entry": true
+  }
+]

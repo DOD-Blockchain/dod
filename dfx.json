@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "dod": {
+      "candid": "artifacts/dod/dod.did",
+      "package": "dod",
+      "type": "rust"
+    },
+    "dod_web": {
+      "frontend": {
+        "entrypoint": "clients/app/dist/index.html"
+      },
+      "source": ["clients/app/dist/"],
+      "build": ["cd clients/app && pnpm run build"],
+      "type": "assets"
+    },
+    "dod_web2": {
+      "frontend": {
+        "entrypoint": "clients/app/dist/index.html"
+      },
+      "source": ["clients/app/dist/"],
+      "build": ["cd clients/app && pnpm run build"],
+      "type": "assets"
+    }
+  },
+  "version": 1
+}

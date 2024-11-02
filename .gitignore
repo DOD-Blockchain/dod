@@ -1,0 +1,85 @@
+# Various IDEs and Editors
+.vscode/
+.idea/
+**/*~
+
+# Mac OSX temporary files
+.DS_Store
+
+# dfx temporary files
+.dfx/
+
+# frontend code
+node_modules/
+dist/
+
+!ego/**/lib
+
+
+# Cargo build output
+target/
+
+# Test
+snapshots/
+
+
+# Various IDEs and Editors
+**/.vscode/
+**/.idea/
+**/*~
+
+# Mac OSX temporary files
+**/.DS_Store
+
+# dfx temporary files
+**/.dfx/
+
+# frontend code
+**/node_modules/
+**/dist/
+**/clients
+
+
+# Cargo build output
+**/target/
+
+
+# Test
+snapshots/
+
+credentials/*.txt
+credentials/*.pem
+clients/idls/**/*.ts
+clients/idls/**/*.js
+clients/app/
+clients/scripts/
+
+# canisters/
+canisters/**/*.wasm
+canisters/**/Cargo.lock
+canisters/**/*.auto.did
+canisters/.pnpm-debug.log
+
+
+# configs
+# configs/ego*.json
+!configs/constant.json
+!configs/local.json
+
+
+# artifacts
+artifacts/**/
+
+# lock files
+**/yarn.lock
+**/package-lock.json
+**/pnpm-lock.yaml
+
+topup.sh
+
+# Added by cargo
+
+/target
+
+outputs/*.json
+
